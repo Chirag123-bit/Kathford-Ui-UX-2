@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      .parent {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 100vh;
+      }
+      div {
+        margin: 0.1rem;
+        font-size: 2rem;
+      }
+      .box1 {
+        width: 150px;
+        height: 150px;
+        background-color: black;
+        color: white;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .box2 {
+        width: 150px;
+        height: 150px;
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="box1">Text</div>
+    </div>
+  </body>
+</html>
