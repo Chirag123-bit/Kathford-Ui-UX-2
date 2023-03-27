@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      button {
+        width: 200px;
+        height: 40px;
+        border: none;
+        font-size: 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.2s ease-in;
+        margin: 2rem;
+      }
+
+      #btnOne {
+        color: white;
+        background-color: blue;
+      }
+
+      #btnOne:hover {
+        background-color: rgb(6, 6, 151);
+        transition: all 0.2s ease-in;
+      }
+
+      #btnTwo {
+        background-color: orange;
+        color: white;
+      }
+      #btnTwo:hover {
+        transform: scale(1.2);
+      }
+      #btnThree {
+        background-color: green;
+        color: white;
+        transition: all 0.3s ease;
+        border: 2px solid green;
+      }
+      #btnThree:hover {
+        background-color: white;
+        color: black;
+        transition: all 0.3s ease;
+      }
+      #boxOne {
+        width: 300px;
+        height: 150px;
+        background-color: darkorange;
+        color: white;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 8rem;
+        transition: all 1s ease-in-out;
+      }
+
+      #boxOne:hover {
+        transition: all 1s ease-in-out;
+        /* Controls Size of Element */
+        /* transform: scale(1.1); */
+
+        /* Rotate An Element */
+        /* transform: rotate(20deg); */
+        /* transform: rotateY(360deg); */
+
+        /* transform: translate(100px, 300px); */
+        /* transform: translateY(300px); */
+        /* transform: translateZ(200px); */
+        /* transform: skew(20deg, 10deg); */
+
+        transform: rotate(360deg) translate(200px, 300px) scale(1.1);
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <button id="btnOne">Button One</button>
+      <button id="btnTwo">Button Two</button>
+      <button id="btnThree">Button Two</button>
+    </center>
+
+    <!-- <center> -->
+    <div id="boxOne">Box</div>
+    <!-- </center> -->
+  </body>
+</html>
