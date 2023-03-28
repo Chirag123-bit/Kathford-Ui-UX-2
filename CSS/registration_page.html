@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-image: url("https://images3.alphacoders.com/106/1069102.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+      }
+
+      form {
+        background-color: rgba(68, 57, 175, 0.4);
+        width: 60%;
+        height: 60vh;
+        color: white;
+        padding: 1.5rem;
+        border-radius: 15px;
+        backdrop-filter: blur(4px);
+      }
+      .name_container input {
+        width: 49%;
+      }
+      .input_container input {
+        width: 100%;
+      }
+      .name_container input,
+      .input_container input {
+        padding: 0.8rem;
+        margin-bottom: 1rem;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
+      }
+
+      input::placeholder {
+        color: white;
+      }
+      #text-container {
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+      h2 {
+        margin-bottom: 0.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="#">
+      <div id="text-container">
+        <h2>Register</h2>
+        <p>Fill Out This Form</p>
+      </div>
+
+      <div class="name_container">
+        <input type="text" name="fname" placeholder="First Name" />
+        <input type="text" name="lname" placeholder="Last Name" />
+      </div>
+      <div class="input_container">
+        <input type="text" name="username" placeholder="Username" />
+      </div>
+      <div class="input_container">
+        <input type="email" name="email" placeholder="Email Address" />
+      </div>
+      <div class="input_container">
+        <input type="password" name="password" placeholder="Password" />
+      </div>
+
+      <div class="agree">
+        <input type="checkbox" name="agree" id="agree" />
+        <label for="agree"
+          >I agree with the <b>Terms and Conditions </b> and
+          <b>Privacy Policy</b></label
+        >
+      </div>
+    </form>
+  </body>
+</html>
