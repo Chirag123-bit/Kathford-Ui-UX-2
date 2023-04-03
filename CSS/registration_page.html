@@ -39,6 +39,7 @@
       .name_container input,
       .input_container input {
         padding: 0.8rem;
+        padding-left: 2rem;
         margin-bottom: 1rem;
         border-radius: 5px;
         border: none;
@@ -58,7 +59,38 @@
       h2 {
         margin-bottom: 0.5rem;
       }
+
+      #submitBtn {
+        margin-top: 1rem;
+        width: 150px;
+        height: 40px;
+        border: 1px solid white;
+        background: transparent;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+      .input_container {
+        position: relative;
+        /* left: 2rem; */
+      }
+
+      /* Static, Sticky, Fixed, Absolute, Relative */
+
+      .input_container i {
+        position: absolute;
+        top: 0.8rem;
+        left: 0.5rem;
+        font-size: 1.2rem;
+      }
     </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <form action="#">
@@ -72,12 +104,15 @@
         <input type="text" name="lname" placeholder="Last Name" />
       </div>
       <div class="input_container">
+        <i class="fa-solid fa-user"></i>
         <input type="text" name="username" placeholder="Username" />
       </div>
       <div class="input_container">
+        <i class="fa-solid fa-envelope"></i>
         <input type="email" name="email" placeholder="Email Address" />
       </div>
       <div class="input_container">
+        <i class="fa-solid fa-lock"></i>
         <input type="password" name="password" placeholder="Password" />
       </div>
 
@@ -88,6 +123,10 @@
           <b>Privacy Policy</b></label
         >
       </div>
+
+      <center>
+        <button id="submitBtn">Submit Now</button>
+      </center>
     </form>
   </body>
 </html>
