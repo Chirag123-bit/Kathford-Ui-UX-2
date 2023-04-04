@@ -1,0 +1,53 @@
+.container
+
+.container-fluid
+
+.row
+
+.col-sm-1, .col-md-1, .col-lg-1, .col-xl-1 (.col-sm-1 to .col-sm-12)
+
+.bg-primary, .bg-secondary, .bg-warning, .bg-success and so on
+
+.ps-0, .ps-1, .ps-2, .ps-3, .ps-4, .ps-5 (pe, pt, pl, px, py) (mx, my, mt, mb, ms, me)
+
+.h1 to .h6 
+
+.table, .table-responsive, .table-dark, .table-striped, .table-hover
+
+.btn, .btn-primary, .btn-outline-primary, .btn-sm, .btn-lg
+
+.alert, .alert-success, .alert-danger ....
+
+.badge, .rounded-pill
+
+.card, .card-header, .card-img-top, .card-body, .card-title, .card-subtitle, .card-text, .card-footer
+
+.modal, .modal-dialog, .modal-content, .modal-header, .modal-body, .modal-footer
+
+.navbar, .navbar-light, .navbar-brand, .navbar-collapse, .navbar nav, .nav-item, .nav-link
+
+.dropdown, .dropdown-menu, .dropdown-item
+
+.rounded, .rounded-top, .rounded-end, .rounded-bottom, .rounded-start, .rounded-circle, .rounded-pill, .rounded-circle, 
+
+.border, .border-primary, border-1 ...
+
+.text-primary, .text-secondary, .text-success …
+
+.text-white, .text-dark, .text-muted
+
+.text-start, .text-justify, .text-end, .text-center
+
+.text-uppercase, .text-lowercase, .text-capitalize
+
+.d-flex, .flex-row, .flex-column, .flex-nowrap, .flex-wrap
+
+.justify-content-start, .justify-content-end, .justify-content-center, .justify-content-around, .justify-content-between, .justify-content-evenly (similar classes available for align-content)
+
+.align-items-center, .align-items-start, .align-items-end
+
+.img-fluid, .img-thumbnail
+
+.shadow-sm, .shadow, .shadow-lg
+
+.list-unstyled
