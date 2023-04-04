@@ -24,7 +24,6 @@
       form {
         background-color: rgba(68, 57, 175, 0.4);
         width: 60%;
-        height: 60vh;
         color: white;
         padding: 1.5rem;
         border-radius: 15px;
@@ -83,6 +82,21 @@
         left: 0.5rem;
         font-size: 1.2rem;
       }
+
+      @media (max-width: 900px) {
+        form {
+          width: 80%;
+        }
+      }
+
+      @media (max-width: 500px) {
+        form {
+          width: 90%;
+        }
+        .agree label {
+          font-size: 0.8rem;
+        }
+      }
     </style>
     <link
       rel="stylesheet"
@@ -91,6 +105,25 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
   </head>
   <body>
     <form action="#">
