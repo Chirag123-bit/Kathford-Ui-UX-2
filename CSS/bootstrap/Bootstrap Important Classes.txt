@@ -36,7 +36,7 @@
 
 .text-white, .text-dark, .text-muted
 
-.text-start, .text-justify, .text-end, .text-center
+.text-start,  .text-end, .text-center
 
 .text-uppercase, .text-lowercase, .text-capitalize
 
