@@ -1,0 +1,59 @@
+Finding HTML Elements
+
+var x = document.getElementById("intro");
+
+var x = document.getElementsByTagName("p");
+
+var x = document.getElementsByClassName("intro");
+
+var x = document.querySelector(".intro");
+
+var x = document.querySelectorAll(".intro");
+
+
+
+
+JavaScript Can Change HTML Content
+
+document.getElementById("demo").innerHTML = "Hello JavaScript";
+
+JavaScript Can Change HTML Attribute Values
+
+<button onclick="document.getElementById('myImage').src='image1.jpg'">Click to change image</button>
+
+<img id="myImage" src="image.jpg " style="width:100px">
+
+
+
+
+
+JavaScript Can Change HTML Styles (CSS)
+
+document.getElementById("demo").style.fontSize = "35px";
+
+
+
+
+
+JavaScript Can Hide HTML Elements
+
+document.getElementById("demo").style.display = "none";
+
+
+
+
+
+
+JavaScript Can Show HTML Elements
+
+document.getElementById("demo").style.display = "block";
+
+
+
+
+
+JavaScript Can Add/Remove HTML Elements class name
+
+document.getElementById("demo").classList.add("container");
+
+document.getElementId ("demo").classList.remove("container");

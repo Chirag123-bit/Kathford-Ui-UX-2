@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script>
+      // Conditional Statements
+      //Loops (For/ While)
+
+      //Conditional Statements
+      //   let inp = prompt("Enter a number");
+      //   if (inp % 2 == 0) {
+      //     console.log("The Number is Divisible by 2");
+      //   } else if (inp % 5 == 0) {
+      //     console.log("The Number is divisible by 5.");
+      //   } else {
+      //     console.log("The Number is nether divisible by 2 nor by 5");
+      //   }
+
+      //Loops (For Loop)
+
+      //   for (let i = 1; i <= 10; i++) {
+      //     console.log(i);
+      //   }
+
+      //   let str = "Hello World";
+      //   console.log(str[1]);
+      //   console.log(str.length);
+
+      //   for (let i = 0; i < str.length; i++) {
+      //     console.log(str[i]);
+      //   }
+
+      //   let sum = 0;
+      //   for (let i = 1; i <= 100; i++) {
+      //     if (i % 3 == 0 || i % 5 == 0) {
+      //       sum += i;
+      //     }
+      //   }
+      //   console.log(`The sum of the given numbers is ${sum}`);
+
+      //   let name = "Satish";
+      //   let age = 22;
+      //   let address = "Kathmandu";
+
+      //   console.log(
+      //     "My name is " + name + " and i am " + age + " years old from " + address
+      //   );
+      //   console.log(
+      //     `My name is ${name} and I am ${age} years old from ${address}`
+      //   );
+
+      //Write a program to print the reverse of a given number.
+
+      let num = 108956;
+
+      //   let reversed = 0;
+
+      //   while (num > 0) {
+      //     let lastDigit = num % 10;
+      //     reversed = reversed * 10 + lastDigit;
+      //     num = Math.floor(num / 10);
+      //   }
+      //   console.log(reversed);
+
+      let str = num.toString();
+      let reverse = "";
+      for (let i = str.length - 1; i >= 0; i--) {
+        reverse += str[i];
+      }
+      console.log(reverse);
+
+      let str2 = "Hello World";
+      let str3 = "mom";
+    </script>
+  </head>
+  <body></body>
+</html>

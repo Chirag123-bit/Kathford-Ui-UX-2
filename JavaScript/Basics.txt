@@ -1,0 +1,28 @@
+// Console, Prompt, Alert
+// Variables (let, const, var)
+// Data Types (String, Boolean, Numbers, Array, Objects)
+// Arithmetic Operators (+,-,*,/,%, **)
+// Comparision Operators (==, ===)
+// If Else
+// Template Literals
+// For Loop
+
+// Array Methods (Push, pop, slice, splice, toString, join,
+//                shift, unshift, concat, splice, slice)
+// Objects
+// Functions
+// DOM Manipulation
+
+
+
+Topics To Cover:
+	Basic syntax and structure of JavaScript
+	Data types in JavaScript
+	Variables and constants in JavaScript
+	Conditional statements in JavaScript
+	Loops in JavaScript
+	Arrays and objects in JavaScript
+	Functions in JavaScript
+	Scope and closures in JavaScript
+	Event handling in JavaScript
+	DOM manipulation in JavaScript
