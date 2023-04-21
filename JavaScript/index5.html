@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="form">
+      <div>
+        <input
+          type="text"
+          name="name"
+          placeholder="Enter Your Name"
+          id="name"
+        />
+        <p id="nameError"></p>
+      </div>
+      <div>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter Your Email"
+        />
+        <p id="emailError"></p>
+      </div>
+      <div>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Enter Password"
+        />
+        <p id="passwordError"></p>
+      </div>
+      <input type="submit" value="Submit" />
+    </form>
+
+    <script>
+      const name = document.getElementById("name");
+      const email = document.getElementById("email");
+      const password = document.getElementById("password");
+
+      const form = document.getElementById("form");
+
+      const nameError = document.getElementById("nameError");
+      const emailError = document.getElementById("emailError");
+      const passwordError = document.getElementById("passwordError");
+
+      const emailPattern = "/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/";
+      var passwordPattern =
+        /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{6,16}$/;
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        if (name.value == "") {
+          nameError.innerText = "Name Cannot be empty";
+        } else if (name.value.length <= 6) {
+          nameError.innerText = "The Name must be greater than  6 Characters";
+        }
+
+        if (!email.value.match(emailPattern)) {
+          emailError.innerText = "The Email Pattern is Invalid";
+        }
+        if (!password.value.match(passwordPattern)) {
+          passwordError.innerText = "The Password Pattern is Invalid";
+        }
+      });
+    </script>
+  </body>
+</html>

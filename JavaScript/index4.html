@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="boxOne">Hello World</div>
+
+    <p id="paraOne">Text</p>
+
+    <img src="" alt="Image" id="imageHolder" />
+
+    <div id="image-container">
+      <img src="" alt="Image One" id="image" />
+    </div>
+    <button id="showBtn" onclick="showImage()">Show Image</button>
+
+    <script>
+      const boxOne = document.getElementById("boxOne");
+      console.log(boxOne.innerHTML); //Captures the content of boxOne
+      boxOne.innerText = "Lorem Epsum"; // Changes content of boxOne
+
+      const paraOne = document.getElementById("paraOne");
+      paraOne.style.fontSize = "40px";
+      paraOne.style.color = "blue";
+
+      function showImage() {
+        const btn = document.getElementById("showBtn");
+        const image = document.getElementById("image");
+        if (btn.innerHTML == "Show Image") {
+          image.src =
+            "https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8&w=1000&q=80";
+          btn.innerText = "Hide Image";
+        } else {
+          image.src = "";
+          btn.innerText = "Show Image";
+        }
+      }
+    </script>
+  </body>
+</html>

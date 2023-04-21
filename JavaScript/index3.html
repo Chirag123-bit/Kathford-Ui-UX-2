@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      class Employee {
+        constructor(givenName) {
+          this.name = givenName;
+        }
+        checkin() {
+          console.log(`${this.name} Has Checked in`);
+        }
+        checkout() {
+          console.log(`${this.name} Has Checked in`);
+        }
+      }
+
+      class ITDeparement extends Employee {
+        constructor(name) {
+          super(name);
+          this.department = "IT";
+        }
+        checkin() {
+          console.log(`${this.name} Has Checked in`);
+        }
+        showDepartment() {
+          console.log(`${this.name} is from ${this.department}`);
+        }
+      }
+
+      let Aashish = new ITDeparement("Aashish");
+      Aashish.checkin();
+      Aashish.checkout();
+      Aashish.showDepartment();
+    </script>
+  </body>
+</html>

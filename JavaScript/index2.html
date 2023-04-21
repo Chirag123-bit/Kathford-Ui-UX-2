@@ -141,15 +141,67 @@
       // console.log(Math.floor(num2));
       // console.log(Math.ceil(num2));
 
-      let randomNumber = Math.random(); // 0-0.99
-      randomNumber = randomNumber * 10;
-      randomNumber = Math.round(randomNumber);
-      console.log(randomNumber);
-
       //Number Guessing Game
       // I.E. Computer generates a number, asks user to
       // Guess Number
       // 3 tries
+
+      // let randomNumber = Math.random(); // 0-0.99
+      // randomNumber = randomNumber * 10;
+      // randomNumber = Math.round(randomNumber);
+      // let life = 3;
+      // while (life > 0) {
+      //   let guess = prompt("Enter a number from 0-10");
+      //   if (guess == randomNumber) {
+      //     console.log("Correct!");
+      //     break;
+      //   } else {
+      //     life--;
+      //     console.log("The Guess is Incoreect");
+      //     if (guess > randomNumber) {
+      //       console.log("Your Guess is too high");
+      //     } else {
+      //       console.log("Your Guess is Low");
+      //     }
+      //   }
+      // }
+
+      function sayHello() {
+        console.log("Hello");
+      }
+      // sayHello();
+
+      function sumOfArray(arr) {
+        let sum = 0;
+        for (let i of arr) {
+          sum += i;
+        }
+        console.log(`The Sum of Array is ${sum}`);
+      }
+
+      const avgOfArray = (arr) => {
+        let sum = 0;
+        for (let i of arr) {
+          sum += i;
+        }
+        console.log(`The Average of Array is ${sum / arr.length}`);
+      };
+
+      let ar1 = [1, 2, 3, 4, 5];
+      let ar2 = [5, 6, 7, 8, 9];
+      // sumOfArray(ar1);
+      // sumOfArray(ar2);
+      avgOfArray(ar2);
+
+      let arr3 = ["Hello", "World", "Again", "One", "Two"];
+
+      // for (let i = 0; i < arr3.length; i++) {
+      //   console.log(arr3[i]);
+      // }
+
+      // for (let i of arr3) {
+      //   console.log(i);
+      // }
     </script>
   </head>
   <body></body>
