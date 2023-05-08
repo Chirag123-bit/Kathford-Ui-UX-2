@@ -52,6 +52,7 @@
       const emailPattern = "/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/";
       var passwordPattern =
         /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{6,16}$/;
+
       form.addEventListener("submit", (e) => {
         e.preventDefault();
         if (name.value == "") {
