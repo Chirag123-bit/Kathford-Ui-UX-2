@@ -1,0 +1,61 @@
+#todoContainer {
+    height: 100vh;
+    background: rgb(34, 30, 94);
+    background: linear-gradient(90deg, rgba(34, 30, 94, 1) 19%, rgba(1, 187, 239, 1) 75%, rgba(0, 212, 255, 1) 100%);
+    padding: 3rem 2rem;
+}
+
+#todoBox {
+    width: 40%;
+    height: 90vh;
+    background-color: rgba(3, 33, 255, 0.208);
+    margin: auto;
+    border-radius: 1rem;
+}
+
+#addTodoComponent input {
+    width: 100%;
+    height: 2.5rem;
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 1rem;
+    padding: 0 2rem;
+    color: white;
+    font-size: 1.3rem;
+}
+
+#addTodoComponent input:focus {
+    outline: none;
+}
+
+#addTodoComponent input::placeholder {
+    color: white;
+}
+
+#addTodoComponent {
+    position: relative;
+}
+
+#addTodoComponent i {
+    position: absolute;
+    color: white;
+    font-size: 1.8rem;
+    right: 1.5rem;
+    top: 0.3rem;
+    cursor: pointer;
+}
+
+#todos .alert {
+    border-radius: 1.4rem;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+.pending {
+    background-color: rgba(255, 0, 0, 0.559);
+}
+
+.completed {
+    background-color: rgba(0, 128, 0, 0.597);
+}
