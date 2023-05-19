@@ -38,6 +38,22 @@ const Todo = () => {
         setTodos([...todos, newTodo])
     }
 
+    const updateTodo = (clickedTodo) => {
+        let updatedTodos = todos.map((todo) => {
+            if (clickedTodo.id == todo.id) {
+                if (todo.status == "completed") {
+                    todo.status = "pending"
+                }
+                else {
+                    todo.status = "completed"
+                }
+                return todo
+            }
+            return todo
+        })
+        setTodos(updatedTodos)
+    }
+
 
     return (
         <div id="todoContainer">
@@ -50,7 +66,7 @@ const Todo = () => {
                 <div id="todos" className='container my-4'>
                     {
                         todos.map((i) => {
-                            return <TodoItem todo={i} />
+                            return <TodoItem todo={i} updateTodo={updateTodo} />
                         })
                     }
 
