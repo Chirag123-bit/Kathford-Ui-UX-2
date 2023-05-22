@@ -1,5 +1,5 @@
 #todoContainer {
-    height: 100vh;
+    min-height: 100vh;
     background: rgb(34, 30, 94);
     background: linear-gradient(90deg, rgba(34, 30, 94, 1) 19%, rgba(1, 187, 239, 1) 75%, rgba(0, 212, 255, 1) 100%);
     padding: 3rem 2rem;
