@@ -1,0 +1,33 @@
+#heroContainer {
+    background-image: url("../../images/home.png");
+    padding: 15rem 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.text-container h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 102px;
+    color: #0655A0;
+}
+
+.text-container p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.10em;
+    color: #0655A0;
+}
+
+.text-container h6 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.15em;
+    text-decoration-line: underline;
+    color: #FF5722;
+}

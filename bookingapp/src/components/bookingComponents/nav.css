@@ -1,0 +1,27 @@
+.navbar {
+    background-color: #10375C;
+}
+
+.navbar a {
+    color: white;
+}
+
+
+.navbar-brand {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 48px;
+}
+
+#colored-text {
+    color: #FF5722;
+}
+
+.nav-link {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 1.5rem;
+}
